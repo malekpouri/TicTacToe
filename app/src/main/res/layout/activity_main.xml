@@ -22,20 +22,177 @@
             android:id="@+id/board"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/board" />
+            app:srcCompat="@drawable/board"
+            tools:ignore="ContentDescription" />
 
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="109dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center_vertical"
-            app:srcCompat="@drawable/cross" />
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="170dp"
+            android:alpha="0"
+            android:onClick="click"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription" />
 
         <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="101dp"
-            android:layout_height="184dp"
-            android:layout_gravity="center_vertical"
-            app:srcCompat="@drawable/circle" />
+            android:id="@+id/imageView12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="170dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/cross"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="170dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/cross"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="300dp"
+            android:alpha="0"
+            android:onClick="click"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="300dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="300dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/cross"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="425dp"
+            android:alpha="0"
+            android:onClick="click"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="425dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/cross"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="425dp"
+            android:adjustViewBounds="false"
+            android:alpha="0"
+            android:cropToPadding="false"
+            android:onClick="click"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="540dp"
+            android:fontFamily="@font/btitrbd"
+            android:text="امتیازات :" />
+
+        <ImageView
+            android:id="@+id/circlePointImage"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="570dp"
+            app:srcCompat="@drawable/circle"
+            tools:ignore="ContentDescription"/>
+        <ImageView
+            android:id="@+id/crossPointImage"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="570dp"
+            app:srcCompat="@drawable/cross"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/circlePointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="557dp"
+            android:fontFamily="@font/arshia"
+            android:text="0"
+            android:textColor="#FF0303"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/crossPointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="557dp"
+            android:fontFamily="@font/arshia"
+            android:text="0"
+            android:textColor="#0325FF"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="620dp"
+            android:fontFamily="@font/btitrbd"
+            android:onClick="reset"
+            android:text="شروع مجدد" />
+
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
